@@ -3,7 +3,7 @@ from PIL import ImageGrab, ImageTk, Image
 
 
 screenshot = 'screenshot.png'
-pytesseract.pytesseract.tesseract_cmd = r'./tesseract/tesseract.exe'
+pytesseract.pytesseract.tesseract_cmd = r'./Tesseract-OCR/tesseract.exe'
 
 #Renser arbeidsmappe
 if os.path.exists(screenshot):
